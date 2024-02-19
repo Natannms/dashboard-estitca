@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 interface progressType {
     title:string,
     value:number
