@@ -4,6 +4,7 @@ import { Service } from "./Service"
 
 export interface Schedule {
     id:number
+    status:string
     start: string
     finish: string
     client: Client
